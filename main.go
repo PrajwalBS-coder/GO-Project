@@ -7,7 +7,7 @@ import (
 
 func main(){
 	var confna="Go Conferenece"
-	const tickets=50
+	const tickets int=50
 	var remaintickets=50
 	var name string
 	var utickets int
