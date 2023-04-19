@@ -28,7 +28,7 @@ fmt.Scan(&email)
 fmt.Println("Enter the no.of tickets")
 fmt.Scan(&utickets)
 remaintickets=remaintickets-utickets
-fmt.Printf("Thank You %v for booking %v tickets you willl confirmation email to this %v email ",name,utickets,email)
+fmt.Printf("Thank You %v for booking %v no.of tickets you willl confirmation email to this %v email ",name,utickets,email)
 fmt.Printf("\n%v tickets remaining for %v",remaintickets,confna)
 
 bookings[0]=name
