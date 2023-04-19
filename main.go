@@ -19,7 +19,7 @@ fmt.Println("Enter Your Name")
 fmt.Scan(&name) 
 fmt.Println("Enter the no.of tickets")
 fmt.Scan(&utickets)
-fmt.Printf("%v booked %v tickets",name,utickets)
+fmt.Printf("User  %v booked %v tickets",name,utickets)
 
 
 
