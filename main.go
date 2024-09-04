@@ -27,10 +27,11 @@ func main() {
 		fmt.Scan(&email)
 		fmt.Println("Enter the no.of tickets")
 		fmt.Scan(&utickets)
-		remaintickets = remaintickets - utickets
+		var temp= remaintickets - utickets
+		remaintickets =temp
 		bookings = append(bookings, fname+" "+lname)
-		fmt.Printf("Thank You %v%v for booking %v no.of tickets you willl confirmation email to this %v email ", fname, lname, utickets, email)
-		fmt.Printf("\n%v tickets remaining for %v", remaintickets, confna)
+		fmt.Printf("Thank You %v %v for booking %v no.of tickets you willl confirmation email to this %v email ", fname, lname, utickets, email)
+		fmt.Printf("\n%v Tickets remaining for %v", remaintickets, confna)
 
 		fn := []string{}
 		for _, booking := range bookings {
