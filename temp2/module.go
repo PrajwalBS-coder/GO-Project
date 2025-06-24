@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 "gonum.org/v1/gonum/stat"
+"amin.com/temp"
+"amin.com/GO-Project/temp"
 )
 
 func main(){
@@ -11,4 +13,5 @@ func main(){
 	fmt.Println("Mean:", mean)
 	median := stat.Quantile(0.5, stat.Empirical, l, nil)
 	fmt.Println("Median:", median)
+	temp.Greet("John")
 }
